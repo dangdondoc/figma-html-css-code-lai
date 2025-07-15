@@ -37,15 +37,22 @@ a {
   border-radius: 999px;
   text-align: center;
 }
+
+.btn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
 /* =============header================ */
 
 .header {
   background-color: #fffcf4;
+  
 }
 
 .header.fixed {
   position: sticky;
   top: -28px;
+  z-index: 1;
 }
 .header .body {
   display: flex;
