@@ -474,3 +474,53 @@ a {
   font-size: 2.6rem;
   line-height: 1.54;
 }
+
+/* ==============features======= */
+
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .image {
+  display: flex;
+  gap: 30px;
+  object-fit: cover;
+}
+
+.features .image img {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+}
+
+.features .image .lower {
+  margin-top: 34px;
+}
+
+.features .content-features {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.content-features .btn-cta {
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 137px;
+  background: var(--primary-color);
+  margin-top: 32px;
+}
